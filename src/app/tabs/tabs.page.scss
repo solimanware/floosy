@@ -1,0 +1,23 @@
+ion-fab{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    z-index: 1;
+}
+.add-button{
+    --border-radius: 15px !important;
+    --background: tomato;
+    width: 50px;
+    height: 50px;
+    h1{
+        font-size: 40px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+.second-tab{
+    margin-right: 50px;
+}
+.tab-selected{
+    color: tomato;
+}
