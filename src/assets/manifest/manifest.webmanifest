@@ -1,0 +1,32 @@
+{
+    "theme_color": "#ff6347",
+    "background_color": "#ff6347",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Floosy App",
+    "short_name": "Floosy",
+    "description": "\u0635\u0631\u0641\u062a \u0641\u0644\u0648\u0633\u064a \u0641\u064a\u0646",
+    "icons": [
+        {
+            "src": "icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
