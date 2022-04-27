@@ -5,10 +5,15 @@
         bottom: 50px;
     }
   }
-  ion-fab{
-    position: absolute;
-    bottom: 30px;
-}
+  @media not all and (display-mode: fullscreen) {
+    ion-fab{
+        position: absolute;
+        bottom: 30px;
+    }
+  }
+ 
+
+
 
 .add-button{
     --border-radius: 15px !important;
