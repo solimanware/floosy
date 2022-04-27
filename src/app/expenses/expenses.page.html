@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>المصاريف</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content dir="rtl">
+  
+      <ion-card *ngFor="let expense of expenses">
+      <h1><span>الإسم: </span>{{expense.name}}</h1>
+      <h1><span>القيمة: </span>{{expense.amount}}</h1>
+      <h1><span>النوع: </span>{{expense.category}}</h1>
+      <h1><span>تحديد النوع: </span>{{expense.subCategory}}</h1>
+      <h1><span>التاريخ: </span>{{expense.date}}</h1>
+      <h1><span>ملاحظات: </span>{{expense.notes}}</h1>
+    </ion-card>
+</ion-content>

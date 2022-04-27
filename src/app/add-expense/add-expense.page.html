@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>أضف مصروف</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content dir="rtl">
+
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">اسم المصروف</ion-label>
+      <ion-input type="text" [(ngModel)]="expense.name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">المبلغ</ion-label>
+      <ion-input type="number" [(ngModel)]="expense.amount"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">نوع المصروف</ion-label>
+      <ion-input type="text" [(ngModel)]="expense.category"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">تفاصيل نوع المصروف</ion-label>
+      <ion-input type="text" [(ngModel)]="expense.subCategory"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">التاريخ</ion-label>
+      <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="expense.date"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">الملاحظات</ion-label>
+      <ion-textarea rows="5"  [(ngModel)]="expense.notes"></ion-textarea>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" (click)="addExpense()">أضف</ion-button>
+
+</ion-content>

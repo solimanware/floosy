@@ -1,7 +1,15 @@
-ion-fab{
+
+@media all and (display-mode: fullscreen) {
+    ion-fab{
+        position: absolute;
+        bottom: 50px;
+    }
+  }
+  ion-fab{
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
 }
+
 .add-button{
     --border-radius: 15px !important;
     --background: tomato;
